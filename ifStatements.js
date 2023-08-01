@@ -8,11 +8,14 @@
 // Write a conditional statement that prints only one or the other.
 // Experiment with manipulating the value held within numQuarters to make sure both conditions can be achieved.
 
-var numQuarters = 0;
+var numQuarters = 4;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
-
+if (numQuarters >= 2) {
+    console.log("I have enough money for a gumball");
+}
+else {
+    console.log("I don't have enough money for a gumball");
+}
 
 // CHALLENGE 2
 // Using the variables defined below, write code that will tell you if you have the ingredients to make a pizza. 
@@ -29,3 +32,15 @@ console.log("I don't have enough money for a gumball");
 var cupsOfFlour = 1;
 var hasSauce = true;
 
+if (cupsOfFlour === 1 && hasSauce === true){
+    console.log("I cannot make pizza")
+}
+else if (cupsOfFlour === 5 && hasSauce === false){
+    console.log("I cannot make pizza")
+}
+else if (cupsOfFlour === 2 && hasSauce === true){
+    console.log("I can make pizza")
+}
+else if (cupsOfFlour === 3 && hasSauce === true){
+    console.log("I can make pizza")
+}
