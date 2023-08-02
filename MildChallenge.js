@@ -9,6 +9,6 @@ var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
         }
        else {
-        console.log(number[i] + "is odd")
+        console.log(numbers[i] + "is odd")
        }
     }
